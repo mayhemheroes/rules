@@ -34,10 +34,10 @@ func mayhemit(bytes []byte) int {
             model.RegisterTupleDescriptors(content)
             return 0
 
-        case 4:
-            var test model.TupleDescriptor
-            test.UnmarshalJSON(bytes)
-            return 0
+        // case 4:
+        //     var test model.TupleDescriptor
+        //     test.UnmarshalJSON(bytes)
+        //     return 0
 
         default:
             content := string(bytes)
