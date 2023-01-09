@@ -1,4 +1,4 @@
-package fuzz
+package fuzzRules
 
 import "strconv"
 import "github.com/project-flogo/rules/ruleapi"
